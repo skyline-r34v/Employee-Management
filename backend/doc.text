@@ -1,0 +1,23 @@
+###
+POST http://localhost:5000/auth/register
+
+JSON Content
+{
+  "email": "vighnesh@gmail.com",
+  "password": "test1234"
+}
+
+###
+POST 
+http://localhost:5000/auth/login
+
+JSON Content
+{
+  "email": "vighnesh@gmail.com",
+  "password": "test1234"
+}
+output jwt - 
+.env file - 
+PORT
+MONGO_URI
+JWT_SECRET
